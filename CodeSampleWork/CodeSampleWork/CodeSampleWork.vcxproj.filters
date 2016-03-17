@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Meta.cpp">
+      <Filter>Meta</Filter>
+    </ClCompile>
+    <ClCompile Include="DataInfo.cpp">
+      <Filter>Meta\DataInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Method.cpp">
+      <Filter>Meta\Method</Filter>
+    </ClCompile>
+    <ClCompile Include="Property.cpp">
+      <Filter>Meta\Property</Filter>
+    </ClCompile>
+    <ClCompile Include="TestObjectInfo.cpp">
+      <Filter>Test\TestObjectInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Any.cpp">
+      <Filter>Meta\Any</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisterBasicTypes.cpp">
+      <Filter>Meta</Filter>
+    </ClCompile>
+    <ClCompile Include="TestAny.cpp">
+      <Filter>Test\TestAny</Filter>
+    </ClCompile>
+    <ClCompile Include="TestProperty.cpp">
+      <Filter>Test\TestProperty</Filter>
+    </ClCompile>
+    <ClCompile Include="TestMethod.cpp">
+      <Filter>Test\TestMethod</Filter>
+    </ClCompile>
+    <ClCompile Include="Serializer.cpp">
+      <Filter>Serializer</Filter>
+    </ClCompile>
+    <ClCompile Include="TestSerializer.cpp">
+      <Filter>Test\TestSerializer</Filter>
+    </ClCompile>
+    <ClCompile Include="Deserializer.cpp">
+      <Filter>Deserializer</Filter>
+    </ClCompile>
+    <ClCompile Include="Error.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Meta">
+      <UniqueIdentifier>{050f6bec-6b28-425f-afb8-10d4ca872374}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Meta\ObjectInfo">
+      <UniqueIdentifier>{4c68cfeb-b22d-4cc7-a06a-f5de02d52795}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Meta\DataInfo">
+      <UniqueIdentifier>{43a8bfa3-fe1b-4470-b105-4d7f7fde0ccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Meta\Method">
+      <UniqueIdentifier>{80674bd8-858a-407d-b8ad-b50c0f2ca698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Meta\Property">
+      <UniqueIdentifier>{e444ba9c-7dd9-4efe-9bca-a79f629ec646}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{2ec14d42-9ecf-4a4e-a1ae-a7c6d0b8ec9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\TestObjectInfo">
+      <UniqueIdentifier>{e7f36d10-65f5-4a43-b7cb-28ddd07ec78f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Meta\Any">
+      <UniqueIdentifier>{34aba85b-c927-46dc-96db-7154c05947f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\TestAny">
+      <UniqueIdentifier>{77d60d84-eab8-4439-97f3-3cfd1423291b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\TestProperty">
+      <UniqueIdentifier>{f57e4470-e250-4864-b025-69f0c780ac4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\TestMethod">
+      <UniqueIdentifier>{f2b2a82a-e8bd-4b7b-b9fc-6639943e92fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Serializer">
+      <UniqueIdentifier>{7151ed7d-fb86-4a78-a134-c0ba2033df18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\TestSerializer">
+      <UniqueIdentifier>{8973138f-c62c-439f-8483-2a3a796ce284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Deserializer">
+      <UniqueIdentifier>{f1b0c632-0181-4d9b-898b-4f6a253d4b74}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Meta.h">
+      <Filter>Meta</Filter>
+    </ClInclude>
+    <ClInclude Include="Meta.hpp">
+      <Filter>Meta</Filter>
+    </ClInclude>
+    <ClInclude Include="Strip.h">
+      <Filter>Meta</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectInfo.h">
+      <Filter>Meta\ObjectInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectInfo.hpp">
+      <Filter>Meta\ObjectInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="DataInfo.h">
+      <Filter>Meta\DataInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Method.hpp">
+      <Filter>Meta\Method</Filter>
+    </ClInclude>
+    <ClInclude Include="Method.h">
+      <Filter>Meta\Method</Filter>
+    </ClInclude>
+    <ClInclude Include="Property.hpp">
+      <Filter>Meta\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="Property.h">
+      <Filter>Meta\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="TestObjectInfo.h">
+      <Filter>Test\TestObjectInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Any.h">
+      <Filter>Meta\Any</Filter>
+    </ClInclude>
+    <ClInclude Include="Any.hpp">
+      <Filter>Meta\Any</Filter>
+    </ClInclude>
+    <ClInclude Include="TestAny.h">
+      <Filter>Test\TestAny</Filter>
+    </ClInclude>
+    <ClInclude Include="TestProperty.h">
+      <Filter>Test\TestProperty</Filter>
+    </ClInclude>
+    <ClInclude Include="TestMethod.h">
+      <Filter>Test\TestMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="Macros.h">
+      <Filter>Meta</Filter>
+    </ClInclude>
+    <ClInclude Include="Serializer.h">
+      <Filter>Serializer</Filter>
+    </ClInclude>
+    <ClInclude Include="Serializer.hpp">
+      <Filter>Serializer</Filter>
+    </ClInclude>
+    <ClInclude Include="TestSerializer.h">
+      <Filter>Test\TestSerializer</Filter>
+    </ClInclude>
+    <ClInclude Include="Deserializer.h">
+      <Filter>Deserializer</Filter>
+    </ClInclude>
+    <ClInclude Include="Deserializer.hpp">
+      <Filter>Deserializer</Filter>
+    </ClInclude>
+    <ClInclude Include="Error.h" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,7 @@
+Test
+{
+  Value 42
+  m_UnsignedValue 42
+  m_FloatValue 42
+  m_String "Fourty two"
+}
